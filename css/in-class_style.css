@@ -1,11 +1,13 @@
 h1 {
     color: yellow;
-    font-size: 200px;
+    font-size: 300px;
     text-align: center;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
 }
 h2 {
     color: blue;
-    font-size: 50px;
+    font-size: 100px;
     text-align: center;
     text-shadow: 2px 2px 5px black;
 }
@@ -14,11 +16,11 @@ p {
     color: green;
     text-align: center;
     padding: 50px;
-    text-shadow: 2px 2px 5px black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .favorite {
     background-color: lightgray;
-    border: 10px solid black;
+    border: 10px solid yellow;
     padding: 30px;
     margin: 100px;
     text-align: center;
@@ -27,5 +29,13 @@ p {
 body {
     background-image: linear-gradient(to bottom, red, purple, blue);
     color: white;
-    font-family: Arial, sans-serif;
+}
+li {
+    font-size: 40px;
+    color: blue;
+    border: dotted 2px black;
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 50px;
+    margin: 50px;
 }

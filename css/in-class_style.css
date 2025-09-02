@@ -1,0 +1,31 @@
+h1 {
+    color: yellow;
+    font-size: 200px;
+    text-align: center;
+}
+h2 {
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+p {
+    font-size: 20px;
+    color: green;
+    text-align: center;
+    padding: 50px;
+    text-shadow: 2px 2px 5px black;
+}
+.favorite {
+    background-color: lightgray;
+    border: 10px solid black;
+    padding: 30px;
+    margin: 100px;
+    text-align: center;
+    color: black;
+}
+body {
+    background-image: linear-gradient(to bottom, red, purple, blue);
+    color: white;
+    font-family: Arial, sans-serif;
+}
